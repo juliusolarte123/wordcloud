@@ -1,0 +1,38 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("JMC-OG-Image.jpg");
+}
+h1{
+    text-align: center;
+    text-shadow: 0cm;
+    font-family:honest script;
+}
+
+table {
+    width: 400px;
+    border-spacing: 5px;
+    position:sticky;
+  }
+  
+  th{
+    text-align: left;
+  }
+
+  table, th, td{
+      border: 1px solid #000;
+  }
+
+  th, td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color:grey;
+}
+
+tr:nth-child(odd){
+    background-color:white;
+}
